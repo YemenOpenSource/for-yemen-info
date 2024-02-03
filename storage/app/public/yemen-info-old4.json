@@ -874,72 +874,7 @@
                     "name_ar": "الحيمة الداخلية",
                     "name_ar_tashkeel": "الحَيْمَة الدَّاخِلِيَّة",
                     "name_ar_normalized": "الحيمه الداخليه",
-                    "name_en_normalized": "Al Haimah Al Dakhiliah",
-                    "uzaal": [
-                        {
-                            "id": 7777,
-                            "name_en": "Al-Ahbwb",
-                            "name_ar": "الاحبوب",
-                            "name_ar_normalized": "الاحبوب",
-                            "name_en_normalized": "Al Ahbwb"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Al-Jd'an",
-                            "name_ar": "الجدعان",
-                            "name_ar_normalized": "الجدعان",
-                            "name_en_normalized": "Al Jdan"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Al-Hdb",
-                            "name_ar": "الحدب",
-                            "name_ar_normalized": "الحدب",
-                            "name_en_normalized": "Al Hdb"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Blad Al-Qba'il",
-                            "name_ar": "بلاد القبائل",
-                            "name_ar_normalized": "بلاد القباءل",
-                            "name_en_normalized": "Blad Al Qbail"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Bny Al-Hdhyfy",
-                            "name_ar": "بني الحذيفي",
-                            "name_ar_normalized": "بني الحذيفي",
-                            "name_en_normalized": "Bny Al Hdhyfy"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Bny As-Syagh",
-                            "name_ar": "بني السياغ",
-                            "name_ar_normalized": "بني السياغ",
-                            "name_en_normalized": "Bny As Syagh"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Bny An-Nmry",
-                            "name_ar": "بني النمري",
-                            "name_ar_normalized": "بني النمري",
-                            "name_en_normalized": "Bny An Nmry"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Bny Amrw",
-                            "name_ar": "بني عمرو",
-                            "name_ar_normalized": "بني عمرو",
-                            "name_en_normalized": "Bny Amrw"
-                        },
-                        {
-                            "id": 7777,
-                            "name_en": "Bny Mhlhl",
-                            "name_ar": "بني مهلهل",
-                            "name_ar_normalized": "بني مهلهل",
-                            "name_en_normalized": "Bny Mhlhl"
-                        }
-                    ]
+                    "name_en_normalized": "Al Haimah Al Dakhiliah"
                 },
                 {
                     "id": 24,
@@ -18188,4 +18123,3 @@
         }
     ]
 }
-

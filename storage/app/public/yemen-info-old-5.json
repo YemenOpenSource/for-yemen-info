@@ -10653,16 +10653,7 @@
                     "name_ar": "مدينة البيضاء",
                     "name_ar_tashkeel": "مَدِينَة البَيْضَاء",
                     "name_ar_normalized": "مدينه البيضاء",
-                    "name_en_normalized": "Al Baidha City",
-                    "uzaal": [
-                        {
-                            "id": 8888,
-                            "name_en": "Mdynt Al-Byda'a",
-                            "name_ar": "مدينة البيضاء",
-                            "name_ar_normalized": "مدينه البيضاء",
-                            "name_en_normalized": "Mdynt Al Bydaa"
-                        }
-                    ]
+                    "name_en_normalized": "Al Baidha City"
                 },
                 {
                     "id": 160,

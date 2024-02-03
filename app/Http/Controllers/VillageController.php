@@ -53,36 +53,16 @@ class VillageController extends Controller
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 63) {
-                    $name = "اسبيل";
+                if ($district['id'] == 143) {
+                    $name = "اعماد";
                     $enNorm = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
-                    $name2 = "الاثلاء";
-                    $enNorm2 = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
-
-                    $name3 = "عنس السلامة";
-                    $enNorm3 = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name3))));
-
                     $district['uzaal'][] = [
-                        "id" => 5555,
+                        "id" => 6666,
                         "name_en" => $Arabic->ar2en($name),
                         "name_ar" => $name,
                         "name_ar_normalized" => $Arabic->arNormalizeText($name),
                         "name_en_normalized" => $enNorm,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 5555,
-                        "name_en" => $Arabic->ar2en($name2),
-                        "name_ar" => $name2,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name2),
-                        "name_en_normalized" => $enNorm2,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 5555,
-                        "name_en" => $Arabic->ar2en($name3),
-                        "name_ar" => $name3,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name3),
-                        "name_en_normalized" => $enNorm3,
                     ];
                 }
 

@@ -3250,30 +3250,7 @@
                     "name_ar": "ميفعة عنس",
                     "name_ar_tashkeel": "مَيْفَعَة عَنْس",
                     "name_ar_normalized": "ميفعه عنس",
-                    "name_en_normalized": "Mayfa’at Ans",
-                    "uzaal": [
-                        {
-                            "id": 5555,
-                            "name_en": "Asbyl",
-                            "name_ar": "اسبيل",
-                            "name_ar_normalized": "اسبيل",
-                            "name_en_normalized": "Asbyl"
-                        },
-                        {
-                            "id": 5555,
-                            "name_en": "Al-Athla'a",
-                            "name_ar": "الاثلاء",
-                            "name_ar_normalized": "الاثلاء",
-                            "name_en_normalized": "Al Athlaa"
-                        },
-                        {
-                            "id": 5555,
-                            "name_en": "Ans As-Slamh",
-                            "name_ar": "عنس السلامة",
-                            "name_ar_normalized": "عنس السلامه",
-                            "name_en_normalized": "Ans As Slamh"
-                        }
-                    ]
+                    "name_en_normalized": "Mayfa’at Ans"
                 },
                 {
                     "id": 64,

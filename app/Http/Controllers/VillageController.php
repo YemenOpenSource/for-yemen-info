@@ -24,19 +24,7 @@ class VillageController extends Controller
         $districtCounter = 1;
         foreach ($yemenData['governorates'] as  &$gov) {
             // 4. loop over the districts
-            // add new district
-            $name = "ضواحي الأمانة سنحان وبني بهلول";
-            $name_tashkeel = "ضَوَاحِي الأمَانَة سَنْحَان وبَنِي بُهْلُول";
 
-            $firstEnNormalization = preg_replace($patternApostrophe, "", $Arabic->ar2en($name));
-            $secondEnNormalization = preg_replace($patternDash, " ", $firstEnNormalization);
-
-            // همدان
-            $name2 = "ضواحي الأمانة همدان";
-            $name_tashkeel2 = "ضَوَاحِي الأمَانَة هَمْدَان";
-
-            $firstEnNormalization2 = preg_replace($patternApostrophe, "", $Arabic->ar2en($name2));
-            $secondEnNormalization2 = preg_replace($patternDash, " ", $firstEnNormalization2);
 
             // if ($gov['id'] == 1) {
             //     $gov['districts'][] = [
@@ -62,13 +50,59 @@ class VillageController extends Controller
 
             // dd($gov);
             foreach ($gov['districts'] as $i => &$district) {
-                echo $district['name_ar_normalized'] . "<br />";
+                // echo $district['id'] . ' ';
+                // echo $district['name_ar_normalized'] . ' <br/>';
+
+                if ($district['id'] == 63) {
+                    $name = "اسبيل";
+                    $enNorm = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
+
+                    $name2 = "الاثلاء";
+                    $enNorm2 = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
+
+                    $name3 = "عنس السلامة";
+                    $enNorm3 = preg_replace($patternApostrophe,"",$Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name3))));
+
+                    $district['uzaal'][] = [
+                        "id" => 5555,
+                        "name_en" => $Arabic->ar2en($name),
+                        "name_ar" => $name,
+                        "name_ar_normalized" => $Arabic->arNormalizeText($name),
+                        "name_en_normalized" => $enNorm,
+                    ];
+                    $district['uzaal'][] = [
+                        "id" => 5555,
+                        "name_en" => $Arabic->ar2en($name2),
+                        "name_ar" => $name2,
+                        "name_ar_normalized" => $Arabic->arNormalizeText($name2),
+                        "name_en_normalized" => $enNorm2,
+                    ];
+                    $district['uzaal'][] = [
+                        "id" => 5555,
+                        "name_en" => $Arabic->ar2en($name3),
+                        "name_ar" => $name3,
+                        "name_ar_normalized" => $Arabic->arNormalizeText($name3),
+                        "name_en_normalized" => $enNorm3,
+                    ];
+                }
+
+                if (isset($district['uzaal']) && is_array($district['uzaal'])) {
+                    foreach ($district['uzaal'] as &$uzlah) {
+                        if (array_key_exists('name_ar_normalized', $uzlah)) {
+                            // echo $gov['name_ar_normalized'] . ' > ';
+                            // echo $district['name_ar_normalized']  . ' > ';
+                            // echo $uzlah['id'] . ': ';
+                            // echo $uzlah['name_ar_normalized'] . "<br />";
+                        }
+                    }
+                }
+                // echo '<br />';
                 // $districtCounter++;
             }
         }
 
         // 5. compare that all governance like the csv file
 
-        // return $yemenData;
+        return $yemenData;
     }
 }

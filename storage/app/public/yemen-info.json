@@ -2145,6 +2145,13 @@
                             "name_ar": "جزيرة هيلو",
                             "name_ar_normalized": "جزيره هيلو",
                             "name_en_normalized": "Jzyrt Hylw"
+                        },
+                        {
+                            "id": 8899,
+                            "name_en": "Jzyrt Al-Qmtyn",
+                            "name_ar": "جزيرة القمتين",
+                            "name_ar_normalized": "جزيره القمتين",
+                            "name_en_normalized": "Jzyrt Al Qmtyn"
                         }
                     ]
                 },

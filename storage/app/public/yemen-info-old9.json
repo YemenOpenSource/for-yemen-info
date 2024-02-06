@@ -1925,7 +1925,7 @@
                         {
                             "id": 256,
                             "name_en": "Dawbalah",
-                            "name_ar": "دوبلة",
+                            "name_ar": "دوبله",
                             "name_ar_normalized": "دوبله",
                             "name_en_normalized": "Dawbalah"
                         },
@@ -1970,181 +1970,6 @@
                             "name_ar": "جزيرة هيكوك الشرقيه",
                             "name_ar_normalized": "جزيره هيكوك الشرقيه",
                             "name_en_normalized": "Haykuk Ash Sharqiyah"
-                        },
-                        {
-                            "id": 8899,
-                            "name_en": "Al-Jzyrt Al-Mdwrh",
-                            "name_ar": "الجزيرة المدورة",
-                            "name_ar_normalized": "الجزيره المدوره",
-                            "name_en_normalized": "Al Jzyrt Al Mdwrh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Mysy",
-                            "name_ar": "العميسي",
-                            "name_ar_normalized": "العميسي",
-                            "name_en_normalized": "Al Mysy"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Ad-Da'irh Ash-Shmalyh",
-                            "name_ar": "جزيرة الدائره الشماليه",
-                            "name_ar_normalized": "جزيره الداءره الشماليه",
-                            "name_en_normalized": "Jzyrt Ad Dairh Ash Shmalyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Ad-Dr'yl",
-                            "name_ar": "جزيرة الدرعيل",
-                            "name_ar_normalized": "جزيره الدرعيل",
-                            "name_en_normalized": "Jzyrt Ad Dryl"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Az-Zawyh Al-Kharjyh",
-                            "name_ar": "جزيرة الزاويه الخارجيه",
-                            "name_ar_normalized": "جزيره الزاويه الخارجيه",
-                            "name_en_normalized": "Jzyrt Az Zawyh Al Kharjyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Ash-Shnazb",
-                            "name_ar": "جزيرة الشناظب",
-                            "name_ar_normalized": "جزيره الشناظب",
-                            "name_en_normalized": "Jzyrt Ash Shnazb"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Qmm",
-                            "name_ar": "جزيرة القمم",
-                            "name_ar_normalized": "جزيره القمم",
-                            "name_en_normalized": "Jzyrt Al Qmm"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mdwrt Ash-Shmalyh",
-                            "name_ar": "جزيرة المدورة الشمالية",
-                            "name_ar_normalized": "جزيره المدوره الشماليه",
-                            "name_en_normalized": "Jzyrt Al Mdwrt Ash Shmalyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mrtf't Al-Alyh",
-                            "name_ar": "جزيرة المرتفعة العالية",
-                            "name_ar_normalized": "جزيره المرتفعه العاليه",
-                            "name_en_normalized": "Jzyrt Al Mrtft Al Alyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mrsa",
-                            "name_ar": "جزيرة المرسى",
-                            "name_ar_normalized": "جزيره المرسا",
-                            "name_en_normalized": "Jzyrt Al Mrsa"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mshjrh",
-                            "name_ar": "جزيرة المشجره",
-                            "name_ar_normalized": "جزيره المشجره",
-                            "name_en_normalized": "Jzyrt Al Mshjrh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-M'zbh",
-                            "name_ar": "جزيرة المعزبه",
-                            "name_ar_normalized": "جزيره المعزبه",
-                            "name_en_normalized": "Jzyrt Al Mzbh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mnakh",
-                            "name_ar": "جزيرة المناخ",
-                            "name_ar_normalized": "جزيره المناخ",
-                            "name_en_normalized": "Jzyrt Al Mnakh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Barkn",
-                            "name_ar": "جزيرة باركن",
-                            "name_ar_normalized": "جزيره باركن",
-                            "name_en_normalized": "Jzyrt Barkn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Bn",
-                            "name_ar": "جزيرة بن",
-                            "name_ar_normalized": "جزيره بن",
-                            "name_en_normalized": "Jzyrt Bn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Sywt Al-Mmalh",
-                            "name_ar": "جزيرة سيوة الممالح",
-                            "name_ar_normalized": "جزيره سيوه الممالح",
-                            "name_en_normalized": "Jzyrt Sywt Al Mmalh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Sywl Hnysh",
-                            "name_ar": "جزيرة سيول حنيش",
-                            "name_ar_normalized": "جزيره سيول حنيش",
-                            "name_en_normalized": "Jzyrt Sywl Hnysh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Skhwr Al-Mrsa",
-                            "name_ar": "جزيرة صخور المرسى",
-                            "name_ar_normalized": "جزيره صخور المرسا",
-                            "name_en_normalized": "Jzyrt Skhwr Al Mrsa"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Twnyw",
-                            "name_ar": "جزيرة طونيو",
-                            "name_ar_normalized": "جزيره طونيو",
-                            "name_en_normalized": "Jzyrt Twnyw"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Kywn",
-                            "name_ar": "جزيرة كيون",
-                            "name_ar_normalized": "جزيره كيون",
-                            "name_en_normalized": "Jzyrt Kywn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hykwk",
-                            "name_ar": "جزيرة هيكوك",
-                            "name_ar_normalized": "جزيره هيكوك",
-                            "name_en_normalized": "Jzyrt Hykwk"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hykwk At-Tbn Al-Jnwbyt Al-Ghrbyh",
-                            "name_ar": "جزيرة هيكوك التبن الجنوبية الغربية",
-                            "name_ar_normalized": "جزيره هيكوك التبن الجنوبيه الغربيه",
-                            "name_en_normalized": "Jzyrt Hykwk At Tbn Al Jnwbyt Al Ghrbyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hykwk At-Tbn Ash-Shmalyt Al-Ghrbyh",
-                            "name_ar": "جزيرة هيكوك التبن الشمالية الغربية",
-                            "name_ar_normalized": "جزيره هيكوك التبن الشماليه الغربيه",
-                            "name_en_normalized": "Jzyrt Hykwk At Tbn Ash Shmalyt Al Ghrbyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hykwk At-Tbn Al-Wsta",
-                            "name_ar": "جزيرة هيكوك التبن الوسطى",
-                            "name_ar_normalized": "جزيره هيكوك التبن الوسطا",
-                            "name_en_normalized": "Jzyrt Hykwk At Tbn Al Wsta"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hylw",
-                            "name_ar": "جزيرة هيلو",
-                            "name_ar_normalized": "جزيره هيلو",
-                            "name_en_normalized": "Jzyrt Hylw"
                         }
                     ]
                 },
@@ -18731,3 +18556,4 @@
         }
     ]
 }
+

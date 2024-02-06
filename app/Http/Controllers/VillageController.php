@@ -51,59 +51,59 @@ class VillageController extends Controller
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 37) {
+                if ($district['id'] == 36) {
                     // dd($district);
 
-                    $name = "الجزر الصخريه";
+                    $name = "جزيرة ابو علي";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
-                    $name2 = "الجزيرة الوسطى";
+                    $name2 = "جزيرة التمساح(تونجو-العالية)";
                     $nameEnNorm2 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
 
-                    $name3 = "جزيرة البقره";
+                    $name3 = "جزيرة الشرقية (القريبة)";
                     $nameEnNorm3 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name3))));
 
-                    $name4 = "جزيرة الجبل";
+                    $name4 = "جزيرة اللسان";
                     $nameEnNorm4 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name4))));
 
-                    $name5 = "جزيرة الجبول ( عقبان الصغرى)";
+                    $name5 = "جزيرة المنفصله(القريبه)";
                     $nameEnNorm5 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name5))));
 
-                    $name6 = "جزيرة الخور";
+                    $name6 = "جزيرة بايل";
                     $nameEnNorm6 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name6))));
 
-                    $name7 = "جزيرة الزبير ( العلم)";
+                    $name7 = "جزيرة شقره (حجر الزاوية)";
                     $nameEnNorm7 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name7))));
 
-                    $name8 = "جزيرة العجل ( المنخفضة)";
+                    $name8 = "جزيرة كوين";
                     $nameEnNorm8 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name8))));
 
-                    $name9 = "جزيرة العسل (سباء)";
-                    $nameEnNorm9 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name9))));
+                    // $name9 = "جزيرة العسل (سباء)";
+                    // $nameEnNorm9 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name9))));
 
-                    $name10 = "جزيرة اللكمي";
-                    $nameEnNorm10 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name10))));
+                    // $name10 = "جزيرة اللكمي";
+                    // $nameEnNorm10 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name10))));
 
-                    $name11 = "جزيرة المستديره";
-                    $nameEnNorm11 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name11))));
+                    // $name11 = "جزيرة المستديره";
+                    // $nameEnNorm11 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name11))));
 
-                    $name12 = "جزيرة المقممة";
-                    $nameEnNorm12 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name12))));
+                    // $name12 = "جزيرة المقممة";
+                    // $nameEnNorm12 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name12))));
 
-                    $name13 = "جزيرة رشه";
-                    $nameEnNorm13 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name13))));
+                    // $name13 = "جزيرة رشه";
+                    // $nameEnNorm13 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name13))));
 
-                    $name14 = "جزيرة سادلي";
-                    $nameEnNorm14 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name14))));
+                    // $name14 = "جزيرة سادلي";
+                    // $nameEnNorm14 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name14))));
 
-                    $name15 = "جزيرة عثمان رميس";
-                    $nameEnNorm15 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name15))));
+                    // $name15 = "جزيرة عثمان رميس";
+                    // $nameEnNorm15 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name15))));
 
-                    $name16 = "جزيرة قمة القائمة";
-                    $nameEnNorm16 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name16))));
+                    // $name16 = "جزيرة قمة القائمة";
+                    // $nameEnNorm16 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name16))));
 
-                    $name17 = "جزيرة مركز بياك";
-                    $nameEnNorm17 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name17))));
+                    // $name17 = "جزيرة مركز بياك";
+                    // $nameEnNorm17 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name17))));
 
                     // $name18 = "بيت العليي";
                     // $nameEnNorm18 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name18))));
@@ -188,69 +188,69 @@ class VillageController extends Controller
                         "name_ar_normalized" => $Arabic->arNormalizeText($name8),
                         "name_en_normalized" => $nameEnNorm8,
                     ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name9),
-                        "name_ar" => $name9,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name9),
-                        "name_en_normalized" => $nameEnNorm9,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name10),
-                        "name_ar" => $name10,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name10),
-                        "name_en_normalized" => $nameEnNorm10,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name11),
-                        "name_ar" => $name11,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name11),
-                        "name_en_normalized" => $nameEnNorm11,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name12),
-                        "name_ar" => $name12,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name12),
-                        "name_en_normalized" => $nameEnNorm12,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name13),
-                        "name_ar" => $name13,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name13),
-                        "name_en_normalized" => $nameEnNorm13,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name14),
-                        "name_ar" => $name14,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name14),
-                        "name_en_normalized" => $nameEnNorm14,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name15),
-                        "name_ar" => $name15,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name15),
-                        "name_en_normalized" => $nameEnNorm15,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name16),
-                        "name_ar" => $name16,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name16),
-                        "name_en_normalized" => $nameEnNorm16,
-                    ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name17),
-                        "name_ar" => $name17,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name17),
-                        "name_en_normalized" => $nameEnNorm17,
-                    ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name9),
+                    //     "name_ar" => $name9,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name9),
+                    //     "name_en_normalized" => $nameEnNorm9,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name10),
+                    //     "name_ar" => $name10,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name10),
+                    //     "name_en_normalized" => $nameEnNorm10,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name11),
+                    //     "name_ar" => $name11,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name11),
+                    //     "name_en_normalized" => $nameEnNorm11,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name12),
+                    //     "name_ar" => $name12,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name12),
+                    //     "name_en_normalized" => $nameEnNorm12,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name13),
+                    //     "name_ar" => $name13,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name13),
+                    //     "name_en_normalized" => $nameEnNorm13,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name14),
+                    //     "name_ar" => $name14,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name14),
+                    //     "name_en_normalized" => $nameEnNorm14,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name15),
+                    //     "name_ar" => $name15,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name15),
+                    //     "name_en_normalized" => $nameEnNorm15,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name16),
+                    //     "name_ar" => $name16,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name16),
+                    //     "name_en_normalized" => $nameEnNorm16,
+                    // ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name17),
+                    //     "name_ar" => $name17,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name17),
+                    //     "name_en_normalized" => $nameEnNorm17,
+                    // ];
                     // $district['uzaal'][] = [
                     //     "id" => 9999,
                     //     "name_en" => $Arabic->ar2en($name18),

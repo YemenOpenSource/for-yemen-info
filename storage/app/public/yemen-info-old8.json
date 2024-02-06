@@ -1691,62 +1691,6 @@
                             "name_ar": "جزيرة القرش(اللخم)",
                             "name_ar_normalized": "جزيره القرش(اللخم)",
                             "name_en_normalized": "Al Qirsh Island (Al Lakham)"
-                        },
-                        {
-                            "id": 8899,
-                            "name_en": "Jzyrt Abw Aly",
-                            "name_ar": "جزيرة ابو علي",
-                            "name_ar_normalized": "جزيره ابو علي",
-                            "name_en_normalized": "Jzyrt Abw Aly"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt At-Tmsah(twnjw-al'alyh)",
-                            "name_ar": "جزيرة التمساح(تونجو-العالية)",
-                            "name_ar_normalized": "جزيره التمساح(تونجو-العاليه)",
-                            "name_en_normalized": "Jzyrt At Tmsah(twnjw Alalyh)"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Ash-Shrqyt (alqrybh)",
-                            "name_ar": "جزيرة الشرقية (القريبة)",
-                            "name_ar_normalized": "جزيره الشرقيه (القريبه)",
-                            "name_en_normalized": "Jzyrt Ash Shrqyt (alqrybh)"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Lsan",
-                            "name_ar": "جزيرة اللسان",
-                            "name_ar_normalized": "جزيره اللسان",
-                            "name_en_normalized": "Jzyrt Al Lsan"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Al-Mnfslh(alqrybh)",
-                            "name_ar": "جزيرة المنفصله(القريبه)",
-                            "name_ar_normalized": "جزيره المنفصله(القريبه)",
-                            "name_en_normalized": "Jzyrt Al Mnfslh(alqrybh)"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Bayl",
-                            "name_ar": "جزيرة بايل",
-                            "name_ar_normalized": "جزيره بايل",
-                            "name_en_normalized": "Jzyrt Bayl"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Shqrh (hjr Az-Zawyh)",
-                            "name_ar": "جزيرة شقره (حجر الزاوية)",
-                            "name_ar_normalized": "جزيره شقره (حجر الزاويه)",
-                            "name_en_normalized": "Jzyrt Shqrh (hjr Az Zawyh)"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Kwyn",
-                            "name_ar": "جزيرة كوين",
-                            "name_ar_normalized": "جزيره كوين",
-                            "name_en_normalized": "Jzyrt Kwyn"
                         }
                     ]
                 },
@@ -18556,4 +18500,3 @@
         }
     ]
 }
-

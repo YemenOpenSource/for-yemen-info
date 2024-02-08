@@ -348,8 +348,8 @@
                         {
                             "id": 18,
                             "name_en": "Bani Ali",
-                            "name_ar": "بني علي",
-                            "name_ar_normalized": "بني علي",
+                            "name_ar": "بني على",
+                            "name_ar_normalized": "بني علا",
                             "name_en_normalized": "Bani Ali"
                         },
                         {
@@ -1384,8 +1384,8 @@
                         {
                             "id": 68,
                             "name_en": "Bani Ar Ra'i",
-                            "name_ar": "بني الراعي",
-                            "name_ar_normalized": "بني الراعي",
+                            "name_ar": "بني الراعى",
+                            "name_ar_normalized": "بني الراعا",
                             "name_en_normalized": "Bani Ar Rai"
                         },
                         {
@@ -1426,8 +1426,8 @@
                         {
                             "id": 74,
                             "name_en": "Bani Sur",
-                            "name_ar": "بني سوار",
-                            "name_ar_normalized": "بني سوار",
+                            "name_ar": "بنى سوار",
+                            "name_ar_normalized": "بنا سوار",
                             "name_en_normalized": "Bani Sur"
                         },
                         {
@@ -1964,8 +1964,8 @@
                         {
                             "id": 257,
                             "name_en": "Al Omaysi",
-                            "name_ar": "العميسي",
-                            "name_ar_normalized": "العميسي",
+                            "name_ar": "العميسى",
+                            "name_ar_normalized": "العميسا",
                             "name_en_normalized": "Al Omaysi"
                         },
                         {
@@ -2184,13 +2184,6 @@
                             "name_ar": "جزيرة القمتين",
                             "name_ar_normalized": "جزيره القمتين",
                             "name_en_normalized": "Jzyrt Al Qmtyn"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Jzyrt As-Sfla",
-                            "name_ar": "جزيرة السفلى",
-                            "name_ar_normalized": "جزيره السفلا",
-                            "name_en_normalized": "Jzyrt As Sfla"
                         }
                     ]
                 },
@@ -3633,8 +3626,8 @@
                         {
                             "id": 199,
                             "name_en": "Bani Baqi",
-                            "name_ar": "بني باقي",
-                            "name_ar_normalized": "بني باقي",
+                            "name_ar": "بني باقى",
+                            "name_ar_normalized": "بني باقا",
                             "name_en_normalized": "Bani Baqi"
                         },
                         {
@@ -3918,8 +3911,8 @@
                         {
                             "id": 398,
                             "name_en": "Bani Az Zikri",
-                            "name_ar": "بني الزكري",
-                            "name_ar_normalized": "بني الزكري",
+                            "name_ar": "بني الزكرى",
+                            "name_ar_normalized": "بني الزكرا",
                             "name_en_normalized": "Bani Az Zikri"
                         },
                         {
@@ -6438,20 +6431,6 @@
                             "name_ar": "خميس حجور",
                             "name_ar_normalized": "خميس حجور",
                             "name_en_normalized": "Khmys Hjwr"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Al-Khmys Al-Wast",
-                            "name_ar": "الخميس الواسط",
-                            "name_ar_normalized": "الخميس الواسط",
-                            "name_en_normalized": "Al Khmys Al Wast"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Bny Ayd",
-                            "name_ar": "بني عيد",
-                            "name_ar_normalized": "بني عيد",
-                            "name_en_normalized": "Bny Ayd"
                         }
                     ]
                 },
@@ -7335,8 +7314,8 @@
                         {
                             "id": 769,
                             "name_en": "Bani Al Mahdi",
-                            "name_ar": "بني المهدي",
-                            "name_ar_normalized": "بني المهدي",
+                            "name_ar": "بني المهدى",
+                            "name_ar_normalized": "بني المهدا",
                             "name_en_normalized": "Bani Al Mahdi"
                         },
                         {
@@ -7432,8 +7411,8 @@
                         {
                             "id": 776,
                             "name_en": "Ad Dan'i",
-                            "name_ar": "الدانعي",
-                            "name_ar_normalized": "الدانعي",
+                            "name_ar": "الدانعى",
+                            "name_ar_normalized": "الدانعا",
                             "name_en_normalized": "Ad Dani"
                         },
                         {
@@ -8488,8 +8467,8 @@
                         {
                             "id": 856,
                             "name_en": "Ash Sharqi",
-                            "name_ar": "الشرقي",
-                            "name_ar_normalized": "الشرقي",
+                            "name_ar": "الشرقى",
+                            "name_ar_normalized": "الشرقا",
                             "name_en_normalized": "Ash Sharqi"
                         },
                         {
@@ -9320,8 +9299,8 @@
                         {
                             "id": 988,
                             "name_en": "Bani Ali",
-                            "name_ar": "بني علي",
-                            "name_ar_normalized": "بني علي",
+                            "name_ar": "بني على",
+                            "name_ar_normalized": "بني علا",
                             "name_en_normalized": "Bani Ali"
                         },
                         {
@@ -10180,8 +10159,8 @@
                         {
                             "id": 891,
                             "name_en": "Bani Mahdi",
-                            "name_ar": "بني مهدي",
-                            "name_ar_normalized": "بني مهدي",
+                            "name_ar": "بني مهدى",
+                            "name_ar_normalized": "بني مهدا",
                             "name_en_normalized": "Bani Mahdi"
                         },
                         {
@@ -13645,13 +13624,6 @@
                             "name_ar": "الجمعه",
                             "name_ar_normalized": "الجمعه",
                             "name_en_normalized": "Al Jumah"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Jzyrt Az-Zyady",
-                            "name_ar": "جزيرة الزيادي",
-                            "name_ar_normalized": "جزيره الزيادي",
-                            "name_en_normalized": "Jzyrt Az Zyady"
                         }
                     ]
                 },
@@ -16092,16 +16064,7 @@
                     "name_ar": "الريدة وقصيعر",
                     "name_ar_tashkeel": "الرَّيْدَة وَقُصَيْعَِر",
                     "name_ar_normalized": "الريده وقصيعر",
-                    "name_en_normalized": "Al Raidah and Qusaier",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Ar-Rydt Wqsy'r",
-                            "name_ar": "الريدة وقصيعر",
-                            "name_ar_normalized": "الريده وقصيعر",
-                            "name_en_normalized": "Ar Rydt Wqsyr"
-                        }
-                    ]
+                    "name_en_normalized": "Al Raidah and Qusaier"
                 },
                 {
                     "id": 258,
@@ -17423,8 +17386,8 @@
                         {
                             "id": 1899,
                             "name_en": "Bani Ali",
-                            "name_ar": "بني علي",
-                            "name_ar_normalized": "بني علي",
+                            "name_ar": "بني على",
+                            "name_ar_normalized": "بني علا",
                             "name_en_normalized": "Bani Ali"
                         },
                         {
@@ -17735,16 +17698,7 @@
                     "name_ar": "مدينة المحويت",
                     "name_ar_tashkeel": "مَدِيْنَة المَحْوِيْت",
                     "name_ar_normalized": "مدينه المحويت",
-                    "name_en_normalized": "Al Mahweet City",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Al-Mhwyt",
-                            "name_ar": "المحويت",
-                            "name_ar_normalized": "المحويت",
-                            "name_en_normalized": "Al Mhwyt"
-                        }
-                    ]
+                    "name_en_normalized": "Al Mahweet City"
                 },
                 {
                     "id": 298,
@@ -17960,13 +17914,6 @@
                             "name_ar": "كرش",
                             "name_ar_normalized": "كرش",
                             "name_en_normalized": "Karish"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Ash-Shryjh",
-                            "name_ar": "الشريجه",
-                            "name_ar_normalized": "الشريجه",
-                            "name_en_normalized": "Ash Shryjh"
                         }
                     ]
                 },
@@ -19324,3 +19271,4 @@
         }
     ]
 }
+

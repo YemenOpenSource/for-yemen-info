@@ -16,7 +16,7 @@ class VillageController extends Controller
         $patternDash = "/-/"; // -
 
         // 1. get the json file
-        $json = Storage::get("public/yemen-info.json",);
+        $json = Storage::get("public/yemen-info.json");
 
         // 2. read the json file
         $yemenData = json_decode($json, true);
@@ -24,16 +24,17 @@ class VillageController extends Controller
         $districtCounter = 1;
         foreach ($yemenData['governorates'] as  &$gov) {
             // 4. loop over the districts
+            // echo $gov['name_ar_normalized'] . "<br />";
 
             // dd($gov);
             foreach ($gov['districts'] as $i => &$district) {
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 143) {
+                if ($district['id'] == 38) {
                     // dd($district);
 
-                    $name = "يحصب";
+                    $name = "جزيرة السفلى";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
                     // $name2 = "البطنه";
@@ -321,10 +322,10 @@ class VillageController extends Controller
                 if (isset($district['uzaal']) && is_array($district['uzaal'])) {
                     foreach ($district['uzaal'] as &$uzlah) {
                         if (array_key_exists('name_ar_normalized', $uzlah)) {
-                            // echo $gov['name_ar_normalized'] . ' > ';
-                            // echo $district['name_ar_normalized']  . ' > ';
-                            // echo $uzlah['id'] . ': ';
-                            // echo $uzlah['name_ar_normalized'] . "<br />";
+                            // echo $gov['name_ar_normalized'] . ': ';
+                            // echo $district['name_ar_normalized']  . ': ';
+                            // // echo $uzlah['id'] . ': ';
+                            echo $uzlah['name_ar_normalized'] . "<br />";
                         }
                     }
                 }
@@ -335,6 +336,6 @@ class VillageController extends Controller
 
         // 5. compare that all governance like the csv file
 
-        return $yemenData;
+        // return $yemenData;
     }
 }

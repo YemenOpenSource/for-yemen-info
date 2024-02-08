@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Spatie\SimpleExcel\SimpleExcelReader;
 
 class FromExcel extends Controller
 {
@@ -2078,8 +2079,23 @@ class FromExcel extends Controller
             'يهر',
         ];
 
-        foreach ($arr as $item) {
-            echo  $Arabic->arNormalizeText($item) . "<br/>";
-        }
+        // foreach ($arr as $item) {
+        //     // echo  $Arabic->arNormalizeText($item) . "<br/>";
+        // }
+
+        //     "public/yemen-info.json"
+
+
+        $pathToCsv = storage_path('app/public/العزل-والقرى.csv');
+
+        $rows = SimpleExcelReader::create($pathToCsv)->getRows();
+
+        $rows->each(function(array $rowProperties) use ($Arabic) {
+            // in the first pass $rowProperties will contain
+            // ['email' => 'john@example.com', 'first_name' => 'john']
+            // dd($rowProperties['القرية']);
+            echo $Arabic->arNormalizeText($rowProperties['العزلة']) . "<br />";
+         });
+
     }
 }

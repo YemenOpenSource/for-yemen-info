@@ -12650,16 +12650,7 @@
                     "name_ar": "مرخة السفلى",
                     "name_ar_tashkeel": "مَرْخَة السُّفْلَى",
                     "name_ar_normalized": "مرخه السفلا",
-                    "name_en_normalized": "Markhah Al Sofla",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Mrkhh As-Sfla",
-                            "name_ar": "مرخه السفلى",
-                            "name_ar_normalized": "مرخه السفلا",
-                            "name_en_normalized": "Mrkhh As Sfla"
-                        }
-                    ]
+                    "name_en_normalized": "Markhah Al Sofla"
                 },
                 {
                     "id": 193,
@@ -12667,65 +12658,7 @@
                     "name_ar": "مرخة العليا",
                     "name_ar_tashkeel": "مَرْخَة العُلْيَا",
                     "name_ar_normalized": "مرخه العليا",
-                    "name_en_normalized": "Markhah Al Olia",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Al-Jfrh",
-                            "name_ar": "الجفره",
-                            "name_ar_normalized": "الجفره",
-                            "name_en_normalized": "Al Jfrh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Hyd'h",
-                            "name_ar": "الحيده",
-                            "name_ar_normalized": "الحيده",
-                            "name_en_normalized": "Al Hydh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Khys",
-                            "name_ar": "الخيس",
-                            "name_ar_normalized": "الخيس",
-                            "name_en_normalized": "Al Khys"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "As-Slmyn",
-                            "name_ar": "السلمين",
-                            "name_ar_normalized": "السلمين",
-                            "name_en_normalized": "As Slmyn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Aqr",
-                            "name_ar": "العاقر",
-                            "name_ar_normalized": "العاقر",
-                            "name_en_normalized": "Al Aqr"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Qwh",
-                            "name_ar": "القوه",
-                            "name_ar_normalized": "القوه",
-                            "name_en_normalized": "Al Qwh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Hlhl",
-                            "name_ar": "حلحل",
-                            "name_ar_normalized": "حلحل",
-                            "name_en_normalized": "Hlhl"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Nqaq",
-                            "name_ar": "نقاق",
-                            "name_ar_normalized": "نقاق",
-                            "name_en_normalized": "Nqaq"
-                        }
-                    ]
+                    "name_en_normalized": "Markhah Al Olia"
                 },
                 {
                     "id": 194,

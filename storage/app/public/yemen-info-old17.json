@@ -12650,16 +12650,7 @@
                     "name_ar": "مرخة السفلى",
                     "name_ar_tashkeel": "مَرْخَة السُّفْلَى",
                     "name_ar_normalized": "مرخه السفلا",
-                    "name_en_normalized": "Markhah Al Sofla",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Mrkhh As-Sfla",
-                            "name_ar": "مرخه السفلى",
-                            "name_ar_normalized": "مرخه السفلا",
-                            "name_en_normalized": "Mrkhh As Sfla"
-                        }
-                    ]
+                    "name_en_normalized": "Markhah Al Sofla"
                 },
                 {
                     "id": 193,

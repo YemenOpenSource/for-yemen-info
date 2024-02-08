@@ -30,31 +30,31 @@ class VillageController extends Controller
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 204) {
+                if ($district['id'] == 192) {
                     // dd($district);
 
-                    $name = "حدنان";
+                    $name = "مرخه السفلى";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
-                    $name2 = "مشرعه";
-                    $nameEnNorm2 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
+                    // $name2 = "الحيده";
+                    // $nameEnNorm2 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
 
-                    // $name3 = "جزيرة سمحه";
+                    // $name3 = "الخيس";
                     // $nameEnNorm3 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name3))));
 
-                    // $name4 = "جزيرة صابور كمال فرعون";
+                    // $name4 = "السلمين";
                     // $nameEnNorm4 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name4))));
 
-                    // $name5 = "جزيرة عبد الكوري";
+                    // $name5 = "العاقر";
                     // $nameEnNorm5 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name5))));
 
-                    // $name6 = "قلنسيه وعبد الكوري";
+                    // $name6 = "القوه";
                     // $nameEnNorm6 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name6))));
 
-                    // $name7 = "جزيرة بوادر";
+                    // $name7 = "حلحل";
                     // $nameEnNorm7 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name7))));
 
-                    // $name8 = "جزيرة تلاوين";
+                    // $name8 = "نقاق";
                     // $nameEnNorm8 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name8))));
 
                     // $name9 = "جزيرة جواء";
@@ -124,13 +124,13 @@ class VillageController extends Controller
                         "name_ar_normalized" => $Arabic->arNormalizeText($name),
                         "name_en_normalized" => $nameEnNorm,
                     ];
-                    $district['uzaal'][] = [
-                        "id" => 9999,
-                        "name_en" => $Arabic->ar2en($name2),
-                        "name_ar" => $name2,
-                        "name_ar_normalized" => $Arabic->arNormalizeText($name2),
-                        "name_en_normalized" => $nameEnNorm2,
-                    ];
+                    // $district['uzaal'][] = [
+                    //     "id" => 9999,
+                    //     "name_en" => $Arabic->ar2en($name2),
+                    //     "name_ar" => $name2,
+                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name2),
+                    //     "name_en_normalized" => $nameEnNorm2,
+                    // ];
                     // $district['uzaal'][] = [
                     //     "id" => 9999,
                     //     "name_en" => $Arabic->ar2en($name3),

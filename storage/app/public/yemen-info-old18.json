@@ -6324,23 +6324,7 @@
                     "name_ar": "ظليمة حبور",
                     "name_ar_tashkeel": "ظُلَيْمَة حَبُوْر",
                     "name_ar_normalized": "ظليمه حبور",
-                    "name_en_normalized": "Dholaimah Haboor",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Khmys Bny D'hsh",
-                            "name_ar": "خميس بني دهش",
-                            "name_ar_normalized": "خميس بني دهش",
-                            "name_en_normalized": "Khmys Bny Dhsh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Khmys Hjwr",
-                            "name_ar": "خميس حجور",
-                            "name_ar_normalized": "خميس حجور",
-                            "name_en_normalized": "Khmys Hjwr"
-                        }
-                    ]
+                    "name_en_normalized": "Dholaimah Haboor"
                 },
                 {
                     "id": 81,
@@ -19156,3 +19140,4 @@
         }
     ]
 }
+

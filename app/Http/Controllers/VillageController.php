@@ -30,14 +30,14 @@ class VillageController extends Controller
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 192) {
+                if ($district['id'] == 80) {
                     // dd($district);
 
-                    $name = "مرخه السفلى";
+                    $name = "خميس بني دهش";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
-                    // $name2 = "الحيده";
-                    // $nameEnNorm2 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
+                    $name2 = "خميس حجور";
+                    $nameEnNorm2 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name2))));
 
                     // $name3 = "الخيس";
                     // $nameEnNorm3 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name3))));
@@ -124,13 +124,13 @@ class VillageController extends Controller
                         "name_ar_normalized" => $Arabic->arNormalizeText($name),
                         "name_en_normalized" => $nameEnNorm,
                     ];
-                    // $district['uzaal'][] = [
-                    //     "id" => 9999,
-                    //     "name_en" => $Arabic->ar2en($name2),
-                    //     "name_ar" => $name2,
-                    //     "name_ar_normalized" => $Arabic->arNormalizeText($name2),
-                    //     "name_en_normalized" => $nameEnNorm2,
-                    // ];
+                    $district['uzaal'][] = [
+                        "id" => 9999,
+                        "name_en" => $Arabic->ar2en($name2),
+                        "name_ar" => $name2,
+                        "name_ar_normalized" => $Arabic->arNormalizeText($name2),
+                        "name_en_normalized" => $nameEnNorm2,
+                    ];
                     // $district['uzaal'][] = [
                     //     "id" => 9999,
                     //     "name_en" => $Arabic->ar2en($name3),

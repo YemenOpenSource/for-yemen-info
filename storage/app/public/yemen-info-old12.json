@@ -2239,20 +2239,6 @@
                             "name_ar": "جزيرة الشعب",
                             "name_ar_normalized": "جزيره الشعب",
                             "name_en_normalized": "Ash Shab Island"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Jzyrt Hjra",
-                            "name_ar": "جزيرة حجرا",
-                            "name_ar_normalized": "جزيره حجرا",
-                            "name_en_normalized": "Jzyrt Hjra"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Khshby",
-                            "name_ar": "جزيرة خشبي",
-                            "name_ar_normalized": "جزيره خشبي",
-                            "name_en_normalized": "Jzyrt Khshby"
                         }
                     ]
                 },
@@ -12514,41 +12500,6 @@
                             "name_ar": "رضوم",
                             "name_ar_normalized": "رضوم",
                             "name_en_normalized": "Radum"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Jzyrt Braqh",
-                            "name_ar": "جزيرة براقة",
-                            "name_ar_normalized": "جزيره براقه",
-                            "name_en_normalized": "Jzyrt Braqh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Jybws",
-                            "name_ar": "جزيرة جيبوس",
-                            "name_ar_normalized": "جزيره جيبوس",
-                            "name_en_normalized": "Jzyrt Jybws"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Hlanyh",
-                            "name_ar": "جزيرة حلانية",
-                            "name_ar_normalized": "جزيره حلانيه",
-                            "name_en_normalized": "Jzyrt Hlanyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Skhh",
-                            "name_ar": "جزيرة سخه",
-                            "name_ar_normalized": "جزيره سخه",
-                            "name_en_normalized": "Jzyrt Skhh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Ghnsryn",
-                            "name_ar": "جزيرة غنصرين",
-                            "name_ar_normalized": "جزيره غنصرين",
-                            "name_en_normalized": "Jzyrt Ghnsryn"
                         }
                     ]
                 },
@@ -18777,51 +18728,7 @@
                     "name_ar": "قلنسية وعبد الكوري",
                     "name_ar_tashkeel": "قَلَنْسِيِّة وَعَبْد الكُوْرِي",
                     "name_ar_normalized": "قلنسيه وعبد الكوري",
-                    "name_en_normalized": "Qulansiyah and Abd al Kuri",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Jzyrt Al-Akhwyn",
-                            "name_ar": "جزيرة الاخوين",
-                            "name_ar_normalized": "جزيره الاخوين",
-                            "name_en_normalized": "Jzyrt Al Akhwyn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Drs'h",
-                            "name_ar": "جزيرة درسه",
-                            "name_ar_normalized": "جزيره درسه",
-                            "name_en_normalized": "Jzyrt Drsh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Smhh",
-                            "name_ar": "جزيرة سمحه",
-                            "name_ar_normalized": "جزيره سمحه",
-                            "name_en_normalized": "Jzyrt Smhh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Sabwr Kmal Fr'wn",
-                            "name_ar": "جزيرة صابور كمال فرعون",
-                            "name_ar_normalized": "جزيره صابور كمال فرعون",
-                            "name_en_normalized": "Jzyrt Sabwr Kmal Frwn"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Abd Al-Kwry",
-                            "name_ar": "جزيرة عبد الكوري",
-                            "name_ar_normalized": "جزيره عبد الكوري",
-                            "name_en_normalized": "Jzyrt Abd Al Kwry"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Qlnsyh W'bd Al-Kwry",
-                            "name_ar": "قلنسيه وعبد الكوري",
-                            "name_ar_normalized": "قلنسيه وعبد الكوري",
-                            "name_en_normalized": "Qlnsyh Wbd Al Kwry"
-                        }
-                    ]
+                    "name_en_normalized": "Qulansiyah and Abd al Kuri"
                 }
             ]
         },
@@ -19027,3 +18934,4 @@
         }
     ]
 }
+

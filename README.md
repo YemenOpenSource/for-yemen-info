@@ -7,3 +7,4 @@ TODO
 -   [] fix github actions for excel and csv to be like excel or database even with duplicates
 -   [] change readme with the new changes and state clearly that this project ends its goal and will be maintained only for name correction
 - [] remove any (`) in english normalization
+- [] detect and remove any duplication in data

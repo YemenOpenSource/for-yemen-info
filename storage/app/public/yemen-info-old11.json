@@ -12500,6 +12500,41 @@
                             "name_ar": "رضوم",
                             "name_ar_normalized": "رضوم",
                             "name_en_normalized": "Radum"
+                        },
+                        {
+                            "id": 9988,
+                            "name_en": "Jzyrt Braqh",
+                            "name_ar": "جزيرة براقة",
+                            "name_ar_normalized": "جزيره براقه",
+                            "name_en_normalized": "Jzyrt Braqh"
+                        },
+                        {
+                            "id": 9999,
+                            "name_en": "Jzyrt Jybws",
+                            "name_ar": "جزيرة جيبوس",
+                            "name_ar_normalized": "جزيره جيبوس",
+                            "name_en_normalized": "Jzyrt Jybws"
+                        },
+                        {
+                            "id": 9999,
+                            "name_en": "Jzyrt Hlanyh",
+                            "name_ar": "جزيرة حلانية",
+                            "name_ar_normalized": "جزيره حلانيه",
+                            "name_en_normalized": "Jzyrt Hlanyh"
+                        },
+                        {
+                            "id": 9999,
+                            "name_en": "Jzyrt Skhh",
+                            "name_ar": "جزيرة سخه",
+                            "name_ar_normalized": "جزيره سخه",
+                            "name_en_normalized": "Jzyrt Skhh"
+                        },
+                        {
+                            "id": 9999,
+                            "name_en": "Jzyrt Ghnsryn",
+                            "name_ar": "جزيرة غنصرين",
+                            "name_ar_normalized": "جزيره غنصرين",
+                            "name_en_normalized": "Jzyrt Ghnsryn"
                         }
                     ]
                 },
@@ -18934,4 +18969,3 @@
         }
     ]
 }
-

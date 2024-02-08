@@ -13591,23 +13591,7 @@
                     "name_ar": "مشرعة وحدنان",
                     "name_ar_tashkeel": "مَشْرَعَة وَحَدْنَان",
                     "name_ar_normalized": "مشرعه وحدنان",
-                    "name_en_normalized": "Mashraa and Hadnan",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Hdnan",
-                            "name_ar": "حدنان",
-                            "name_ar_normalized": "حدنان",
-                            "name_en_normalized": "Hdnan"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Mshr'h",
-                            "name_ar": "مشرعه",
-                            "name_ar_normalized": "مشرعه",
-                            "name_en_normalized": "Mshrh"
-                        }
-                    ]
+                    "name_en_normalized": "Mashraa and Hadnan"
                 },
                 {
                     "id": 205,

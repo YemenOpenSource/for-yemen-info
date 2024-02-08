@@ -5946,13 +5946,6 @@
                             "name_ar": "ذمار",
                             "name_ar_normalized": "ذمار",
                             "name_en_normalized": "Dhmar"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Mnqdhh",
-                            "name_ar": "منقذه",
-                            "name_ar_normalized": "منقذه",
-                            "name_en_normalized": "Mnqdhh"
                         }
                     ]
                 }
@@ -7525,13 +7518,6 @@
                             "name_ar": "عبس",
                             "name_ar_normalized": "عبس",
                             "name_en_normalized": "Abs"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Mdynt Hjh",
-                            "name_ar": "مدينة حجة",
-                            "name_ar_normalized": "مدينه حجه",
-                            "name_en_normalized": "Mdynt Hjh"
                         }
                     ]
                 },
@@ -19264,3 +19250,4 @@
         }
     ]
 }
+

@@ -30,10 +30,10 @@ class VillageController extends Controller
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 272) {
+                if ($district['id'] == 72) {
                     // dd($district);
 
-                    $name = "مدينة المكلا";
+                    $name = "منقذه";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
                     // $name2 = "البطنه";

@@ -251,16 +251,7 @@
                     "name_ar": "ضواحي الأمانة سنحان وبني بهلول",
                     "name_ar_tashkeel": "ضَوَاحِي الأمَانَة سَنْحَان وبَنِي بُهْلُول",
                     "name_ar_normalized": "ضواحي الامانه سنحان وبني بهلول",
-                    "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Dwahy Al-Amant Snhan Wbny Bhlwl",
-                            "name_ar": "ضواحي الامانة سنحان وبني بهلول",
-                            "name_ar_normalized": "ضواحي الامانه سنحان وبني بهلول",
-                            "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl"
-                        }
-                    ]
+                    "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl"
                 },
                 {
                     "id": 12,
@@ -268,16 +259,7 @@
                     "name_ar": "ضواحي الأمانة همدان",
                     "name_ar_tashkeel": "ضَوَاحِي الأمَانَة هَمْدَان",
                     "name_ar_normalized": "ضواحي الامانه همدان",
-                    "name_en_normalized": "Dwahy Al Amant Hmdan",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Dwahy Al-Amant Hmdan",
-                            "name_ar": "ضواحي الامانة همدان",
-                            "name_ar_normalized": "ضواحي الامانه همدان",
-                            "name_en_normalized": "Dwahy Al Amant Hmdan"
-                        }
-                    ]
+                    "name_en_normalized": "Dwahy Al Amant Hmdan"
                 }
             ]
         },
@@ -327,13 +309,6 @@
                             "name_ar": "بني مكرم",
                             "name_ar_normalized": "بني مكرم",
                             "name_en_normalized": "Bani Mukaram"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Dwahy Al-Amant Snhan Wbny Bhlwl",
-                            "name_ar": "ضواحي الامانة سنحان وبني بهلول",
-                            "name_ar_normalized": "ضواحي الامانه سنحان وبني بهلول",
-                            "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl"
                         }
                     ]
                 },
@@ -449,13 +424,6 @@
                             "name_ar": "بني مره",
                             "name_ar_normalized": "بني مره",
                             "name_en_normalized": "Bani Murah"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Dwahy Al-Amant Hmdan",
-                            "name_ar": "ضواحي الامانة همدان",
-                            "name_ar_normalized": "ضواحي الامانه همدان",
-                            "name_en_normalized": "Dwahy Al Amant Hmdan"
                         }
                     ]
                 },
@@ -19241,4 +19209,3 @@
         }
     ]
 }
-

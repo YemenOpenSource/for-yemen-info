@@ -3655,13 +3655,6 @@
                             "name_ar": "علو جهران",
                             "name_ar_normalized": "علو جهران",
                             "name_en_normalized": "Elu Jahran"
-                        },
-                        {
-                            "id": 9988,
-                            "name_en": "Rsabh",
-                            "name_ar": "رصابة",
-                            "name_ar_normalized": "رصابه",
-                            "name_en_normalized": "Rsabh"
                         }
                     ]
                 },
@@ -6218,44 +6211,7 @@
                     "name_ar": "قفلة عذر",
                     "name_ar_tashkeel": "قِفْلَة عِذَر",
                     "name_ar_normalized": "قفله عذر",
-                    "name_en_normalized": "Qiflt Ethar",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Dhw Ghythan",
-                            "name_ar": "ذو غيثان",
-                            "name_ar_normalized": "ذو غيثان",
-                            "name_en_normalized": "Dhw Ghythan"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Btnh",
-                            "name_ar": "البطنه",
-                            "name_ar_normalized": "البطنه",
-                            "name_en_normalized": "Al Btnh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Ash-Sht",
-                            "name_ar": "الشط",
-                            "name_ar_normalized": "الشط",
-                            "name_en_normalized": "Ash Sht"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Ghrba",
-                            "name_ar": "الغربى",
-                            "name_ar_normalized": "الغربا",
-                            "name_en_normalized": "Al Ghrba"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Qflh",
-                            "name_ar": "القفلة",
-                            "name_ar_normalized": "القفله",
-                            "name_en_normalized": "Al Qflh"
-                        }
-                    ]
+                    "name_en_normalized": "Qiflt Ethar"
                 },
                 {
                     "id": 77,
@@ -19209,3 +19165,4 @@
         }
     ]
 }
+

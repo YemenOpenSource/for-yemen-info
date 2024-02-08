@@ -16310,16 +16310,7 @@
                     "name_ar": "مدينة المكلا",
                     "name_ar_tashkeel": "مَدِيْنَة المُكَلَّا",
                     "name_ar_normalized": "مدينه المكلا",
-                    "name_en_normalized": "Al Mokalla City",
-                    "uzaal": [
-                        {
-                            "id": 9988,
-                            "name_en": "Mdynt Al-Mkla",
-                            "name_ar": "مدينة المكلا",
-                            "name_ar_normalized": "مدينه المكلا",
-                            "name_en_normalized": "Mdynt Al Mkla"
-                        }
-                    ]
+                    "name_en_normalized": "Al Mokalla City"
                 }
             ]
         },

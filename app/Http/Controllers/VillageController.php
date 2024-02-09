@@ -325,7 +325,7 @@ class VillageController extends Controller
                             // echo $gov['name_ar_normalized'] . ': ';
                             // echo $district['name_ar_normalized']  . ': ';
                             // // echo $uzlah['id'] . ': ';
-                            echo $uzlah['name_ar_normalized'] . "<br />";
+                            // echo $uzlah['name_ar_normalized'] . "<br />";
                         }
                     }
                 }

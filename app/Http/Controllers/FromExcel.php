@@ -15,6 +15,10 @@ class FromExcel extends Controller
         $patternApostrophe = "/\'/"; // '
         $patternDash = "/-/"; // -
 
+
+        dd( $Arabic->arNormalizeText("بني جديلــه"));
+        dd( str()->squish($Arabic->arNormalizeText("ال  بقش")));
+
         $arr = [
             'القرية',
             'الصباحى',

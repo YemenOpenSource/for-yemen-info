@@ -23,18 +23,15 @@ class VillageController extends Controller
 
         $districtCounter = 1;
         foreach ($yemenData['governorates'] as  &$gov) {
-            // 4. loop over the districts
-            // echo $gov['name_ar_normalized'] . "<br />";
 
-            // dd($gov);
             foreach ($gov['districts'] as $i => &$district) {
                 // echo $district['id'] . ' ';
                 // echo $district['name_ar_normalized'] . ' <br/>';
 
-                if ($district['id'] == 38) {
+                if ($district['id'] == 35) {
                     // dd($district);
 
-                    $name = "جزيرة السفلى";
+                    $name = "بني محمد";
                     $nameEnNorm = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name))));
 
                     // $name2 = "البطنه";
@@ -119,7 +116,7 @@ class VillageController extends Controller
                     // $nameEnNorm28 = preg_replace($patternApostrophe, "", $Arabic->ar2en(preg_replace($patternDash, " ", $Arabic->ar2en($name28))));
 
                     $district['uzaal'][] = [
-                        "id" => 9988,
+                        "id" => 4499,
                         "name_en" => $Arabic->ar2en($name),
                         "name_ar" => $name,
                         "name_ar_normalized" => $Arabic->arNormalizeText($name),
@@ -336,6 +333,6 @@ class VillageController extends Controller
 
         // 5. compare that all governance like the csv file
 
-        // return $yemenData;
+        return $yemenData;
     }
 }

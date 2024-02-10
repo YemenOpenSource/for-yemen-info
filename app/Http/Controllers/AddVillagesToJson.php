@@ -16,7 +16,7 @@ class AddVillagesToJson extends Controller
         $patternApostrophe = "/\'/"; // '
         $patternDash = "/-/"; // -
 
-        $json = Storage::get("public/yemen-info.json");
+        $json = Storage::get("public/yemen-info-old29.json");
 
         $yemenData = json_decode($json, true);
 
@@ -24,10 +24,10 @@ class AddVillagesToJson extends Controller
 
         $rows = SimpleExcelReader::create($pathToCsv)->getRows();
 
-        foreach($rows as $rowProperties){
+        foreach ($rows as $rowProperties) {
             $districtCounter = 1;
             foreach ($yemenData['governorates'] as &$gov) {
-                if ($gov['name_ar_normalized'] == $Arabic->arNormalizeText($rowProperties['المحافظة'])) {
+                if ($gov['name_ar_normalized'] == $Arabic->arNormalizeText($rowProperties['المحافظة']) ) {
                     foreach ($gov['districts'] as $i => &$district) {
                         if ($district['name_ar_normalized'] == $Arabic->arNormalizeText($rowProperties['المديرية'])) {
                             foreach ($district['uzaal'] as $i => &$uzlah) {

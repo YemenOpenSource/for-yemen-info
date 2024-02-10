@@ -2033,13 +2033,6 @@
                         },
                         {
                             "id": 9999,
-                            "name_en": "Al-Mysy",
-                            "name_ar": "العميسي",
-                            "name_ar_normalized": "العميسي",
-                            "name_en_normalized": "Al Mysy"
-                        },
-                        {
-                            "id": 9999,
                             "name_en": "Jzyrt Ad-Da'irh Ash-Shmalyh",
                             "name_ar": "جزيرة الدائره الشماليه",
                             "name_ar_normalized": "جزيره الداءره الشماليه",
@@ -2135,13 +2128,6 @@
                             "name_ar": "جزيرة سيوة الممالح",
                             "name_ar_normalized": "جزيره سيوه الممالح",
                             "name_en_normalized": "Jzyrt Sywt Al Mmalh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Sywl Hnysh",
-                            "name_ar": "جزيرة سيول حنيش",
-                            "name_ar_normalized": "جزيره سيول حنيش",
-                            "name_en_normalized": "Jzyrt Sywl Hnysh"
                         },
                         {
                             "id": 9999,
@@ -2571,20 +2557,6 @@
                         },
                         {
                             "id": 9999,
-                            "name_en": "Al-B'jyh",
-                            "name_ar": "البعجية",
-                            "name_ar_normalized": "البعجيه",
-                            "name_en_normalized": "Al Bjyh"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Al-Khwbh",
-                            "name_ar": "الخوبة",
-                            "name_ar_normalized": "الخوبه",
-                            "name_en_normalized": "Al Khwbh"
-                        },
-                        {
-                            "id": 9999,
                             "name_en": "Jzyrt Ar-Raf'(rfa'a)",
                             "name_ar": "جزيرة الرافع(رفاء)",
                             "name_ar_normalized": "جزيره الرافع(رفاء)",
@@ -2596,13 +2568,6 @@
                             "name_ar": "جزيرة السرج (المقعد)",
                             "name_ar_normalized": "جزيره السرج (المقعد)",
                             "name_en_normalized": "Jzyrt As Srj (almqd)"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Bhyjh",
-                            "name_ar": "جزيرة بهيجة",
-                            "name_ar_normalized": "جزيره بهيجه",
-                            "name_en_normalized": "Jzyrt Bhyjh"
                         },
                         {
                             "id": 9999,
@@ -2687,13 +2652,6 @@
                             "name_ar": "جزيرة عليان الكبير",
                             "name_ar_normalized": "جزيره عليان الكبير",
                             "name_en_normalized": "Jzyrt Alyan Al Kbyr"
-                        },
-                        {
-                            "id": 9999,
-                            "name_en": "Jzyrt Fra'yh",
-                            "name_ar": "جزيرة فراعية",
-                            "name_ar_normalized": "جزيره فراعيه",
-                            "name_en_normalized": "Jzyrt Frayh"
                         },
                         {
                             "id": 9999,

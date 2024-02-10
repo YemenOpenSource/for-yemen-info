@@ -12,14 +12,10 @@ TODO
     - [x] عزان	ميفعه	شبوه
     - [x] بني محمد	الحيمه الخارجيه	صنعاء
     - [x] بني محمد	بيت الفقيه	الحديده
+    - [x] العميسي	الخوخه	الحديده
 
-
-
-
-
-
-
--   [] fix ids numbers in districts, uzaal, and villages
+-   [x] fix ids numbers in districts, uzaal, and villages
+-   [] fix data
 -   [] add proper github action for new villages conversion
 -   [] fix github actions for excel and csv to be like excel or database even with duplicates
 -   [] change readme with the new changes and state clearly that this project ends its goal and will be maintained only for name correction

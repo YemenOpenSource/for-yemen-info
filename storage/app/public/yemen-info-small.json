@@ -1,824 +1,92 @@
-{
-    "english_name": "Yemen",
-    "arabic_name": "اليَمَن",
-    "iso3": "YEM",
-    "iso2": "YE",
-    "phone_code": "967",
-    "capital_english": "Sanaa",
-    "capital_arabic": "صنعاء",
-    "area_in_kilometer_square": "555000",
-    "currency": "YER",
-    "currency_name_en": "Yemeni rial",
-    "currency_name_ar": "ريال يمني",
-    "currency_symbol": "﷼",
-    "tld": ".ye",
-    "region": "Asia",
-    "subregion": "Western Asia",
-    "timezones": [
-        {
-            "zoneName": "Asia/Aden",
-            "gmtOffset": 10800,
-            "gmtOffsetName": "UTC+03:00",
-            "abbreviation": "AST",
-            "tzName": "Arabia Standard Time"
-        }
-    ],
-    "translations": {
-        "kr": "예멘",
-        "br": "Iêmen",
-        "pt": "Iémen",
-        "nl": "Jemen",
-        "hr": "Jemen",
-        "fa": "یمن",
-        "de": "Jemen",
-        "es": "Yemen",
-        "fr": "Yémen",
-        "ja": "イエメン",
-        "it": "Yemen",
-        "cn": "也门",
-        "tr": "Yemen"
-    },
-    "latitude": "15.00000000",
-    "longitude": "48.00000000",
-    "emoji": "🇾🇪",
-    "emojiU": "U+1F1FE U+1F1EA",
-    "governorates": [
-        {
-            "id": 1,
-            "name_en": "Amant Al-Asmah",
-            "name_ar": "أمانة العاصمة",
-            "name_ar_tashkeel": "أَمانَة العاصِمَةِ",
-            "phone_numbering_plan": "01",
-            "capital_name_ar": "",
-            "capital_name_en": "",
-            "name_ar_normalized": "امانه العاصمه",
-            "name_en_normalized": "Amant Al Asmah",
-            "districts": [
-                {
-                    "id": 2,
-                    "name_en": "Azal",
-                    "name_ar": "آزَاْل",
-                    "name_ar_tashkeel": "آزَاْل",
-                    "name_ar_normalized": "ازال",
-                    "name_en_normalized": "Azal",
-                    "uzaal": [
-                        {
-                            "id": 2,
-                            "name_en": "Azaal",
-                            "name_ar": "ازال",
-                            "name_ar_normalized": "ازال",
-                            "name_en_normalized": "Azaal",
-                            "villages": [
-                                {
-                                    "id": 3,
-                                    "name_en": "Hart Akmt Az-Zbyb",
-                                    "name_ar": "حارة اكمة الزبيب",
-                                    "name_ar_normalized": "حاره اكمه الزبيب",
-                                    "name_en_normalized": "Hart Akmt Az Zbyb"
-                                },
-                                {
-                                    "id": 4,
-                                    "name_en": "Hart As-Sd",
-                                    "name_ar": "حارة السد",
-                                    "name_ar_normalized": "حاره السد",
-                                    "name_en_normalized": "Hart As Sd"
-                                },
-                                {
-                                    "id": 5,
-                                    "name_en": "Hart Shyratwn",
-                                    "name_ar": "حارة شيراتون",
-                                    "name_ar_normalized": "حاره شيراتون",
-                                    "name_en_normalized": "Hart Shyratwn"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name_en": "Al-Safiah",
-                    "name_ar": "الصافية",
-                    "name_ar_tashkeel": "الصَّافِيَة",
-                    "name_ar_normalized": "الصافيه",
-                    "name_en_normalized": "Al Safiah",
-                    "uzaal": [
-                        {
-                            "id": 3,
-                            "name_en": "As Safiyah",
-                            "name_ar": "الصافيه",
-                            "name_ar_normalized": "الصافيه",
-                            "name_en_normalized": "As Safiyah",
-                            "villages": [
-                                {
-                                    "id": 6,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 7,
-                                    "name_en": "Al-Blyly",
-                                    "name_ar": "البليلي",
-                                    "name_ar_normalized": "البليلي",
-                                    "name_en_normalized": "Al Blyly"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name_en": "Al-Sabe'en",
-                    "name_ar": "السبعين",
-                    "name_ar_tashkeel": "السَّبْعِين",
-                    "name_ar_normalized": "السبعين",
-                    "name_en_normalized": "Al Sabeen",
-                    "uzaal": [
-                        {
-                            "id": 4,
-                            "name_en": "As Sab'in",
-                            "name_ar": "السبعين",
-                            "name_ar_normalized": "السبعين",
-                            "name_en_normalized": "As Sabin",
-                            "villages": [
-                                {
-                                    "id": 8,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 9,
-                                    "name_en": "As-Swad Ash-Shmaly",
-                                    "name_ar": "السواد الشمالي",
-                                    "name_ar_normalized": "السواد الشمالي",
-                                    "name_en_normalized": "As Swad Ash Shmaly"
-                                },
-                                {
-                                    "id": 10,
-                                    "name_en": "Hart An-Nsr",
-                                    "name_ar": "حارة النصر",
-                                    "name_ar_normalized": "حاره النصر",
-                                    "name_en_normalized": "Hart An Nsr"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "name_en": "Sh'oob",
-                    "name_ar": "شعوب",
-                    "name_ar_tashkeel": "شُعُوْب",
-                    "name_ar_normalized": "شعوب",
-                    "name_en_normalized": "Shoob",
-                    "uzaal": [
-                        {
-                            "id": 5,
-                            "name_en": "Shu'ub",
-                            "name_ar": "شعوب",
-                            "name_ar_normalized": "شعوب",
-                            "name_en_normalized": "Shuub",
-                            "villages": [
-                                {
-                                    "id": 11,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 12,
-                                    "name_en": "Shar' Khwlan",
-                                    "name_ar": "شارع خولان",
-                                    "name_ar_normalized": "شارع خولان",
-                                    "name_en_normalized": "Shar Khwlan"
-                                },
-                                {
-                                    "id": 13,
-                                    "name_en": "S'wan",
-                                    "name_ar": "سعوان",
-                                    "name_ar_normalized": "سعوان",
-                                    "name_en_normalized": "Swan"
-                                },
-                                {
-                                    "id": 14,
-                                    "name_en": "Sh'wb",
-                                    "name_ar": "شعوب",
-                                    "name_ar_normalized": "شعوب",
-                                    "name_en_normalized": "Shwb"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name_en": "Al-Wehdah",
-                    "name_ar": "الوحدة",
-                    "name_ar_tashkeel": "الوِحْدَة",
-                    "name_ar_normalized": "الوحده",
-                    "name_en_normalized": "Al Wehdah",
-                    "uzaal": [
-                        {
-                            "id": 6,
-                            "name_en": "Al Wehdah",
-                            "name_ar": "الوحده",
-                            "name_ar_normalized": "الوحده",
-                            "name_en_normalized": "Al Wehdah",
-                            "villages": [
-                                {
-                                    "id": 15,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 7,
-                    "name_en": "Al-Tahrir",
-                    "name_ar": "التحرير",
-                    "name_ar_tashkeel": "التَّحْرِير",
-                    "name_ar_normalized": "التحرير",
-                    "name_en_normalized": "Al Tahrir",
-                    "uzaal": [
-                        {
-                            "id": 7,
-                            "name_en": "At Tahrir",
-                            "name_ar": "التحرير",
-                            "name_ar_normalized": "التحرير",
-                            "name_en_normalized": "At Tahrir",
-                            "villages": [
-                                {
-                                    "id": 16,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 17,
-                                    "name_en": "Qa' Al-Lfy",
-                                    "name_ar": "قاع العلفي",
-                                    "name_ar_normalized": "قاع العلفي",
-                                    "name_en_normalized": "Qa Al Lfy"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "name_en": "Al-Thowarah",
-                    "name_ar": "الثورة",
-                    "name_ar_tashkeel": "الثَّوْرَة",
-                    "name_ar_normalized": "الثوره",
-                    "name_en_normalized": "Al Thowarah",
-                    "uzaal": [
-                        {
-                            "id": 8,
-                            "name_en": "Ath Thawrah",
-                            "name_ar": "الثوره",
-                            "name_ar_normalized": "الثوره",
-                            "name_en_normalized": "Ath Thawrah",
-                            "villages": [
-                                {
-                                    "id": 18,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 19,
-                                    "name_en": "Shar' Al-Qahrh",
-                                    "name_ar": "شارع القاهرة",
-                                    "name_ar_normalized": "شارع القاهره",
-                                    "name_en_normalized": "Shar Al Qahrh"
-                                },
-                                {
-                                    "id": 20,
-                                    "name_en": "Al-Jraf",
-                                    "name_ar": "الجراف",
-                                    "name_ar_normalized": "الجراف",
-                                    "name_en_normalized": "Al Jraf"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name_en": "Maeen",
-                    "name_ar": "معين",
-                    "name_ar_tashkeel": "مَعَيْن",
-                    "name_ar_normalized": "معين",
-                    "name_en_normalized": "Maeen",
-                    "uzaal": [
-                        {
-                            "id": 9,
-                            "name_en": "Ma'in",
-                            "name_ar": "معين",
-                            "name_ar_normalized": "معين",
-                            "name_en_normalized": "Main",
-                            "villages": [
-                                {
-                                    "id": 21,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 22,
-                                    "name_en": "Mdhbh",
-                                    "name_ar": "مذبح",
-                                    "name_ar_normalized": "مذبح",
-                                    "name_en_normalized": "Mdhbh"
-                                },
-                                {
-                                    "id": 23,
-                                    "name_en": "Hart As-Swd'h",
-                                    "name_ar": "حارة السودة",
-                                    "name_ar_normalized": "حاره السوده",
-                                    "name_en_normalized": "Hart As Swdh"
-                                },
-                                {
-                                    "id": 24,
-                                    "name_en": "Shar' Hayl",
-                                    "name_ar": "شارع هايل",
-                                    "name_ar_normalized": "شارع هايل",
-                                    "name_en_normalized": "Shar Hayl"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "name_en": "Bni Al-Harith",
-                    "name_ar": "بني الحارث",
-                    "name_ar_tashkeel": "بَنِيْ الحَارِث",
-                    "name_ar_normalized": "بني الحارث",
-                    "name_en_normalized": "Bni Al Harith",
-                    "uzaal": [
-                        {
-                            "id": 10,
-                            "name_en": "Bani Al Harith",
-                            "name_ar": "بني الحارث",
-                            "name_ar_normalized": "بني الحارث",
-                            "name_en_normalized": "Bani Al Harith",
-                            "villages": [
-                                {
-                                    "id": 25,
-                                    "name_en": "Hart Al-Khyr",
-                                    "name_ar": "حارة الخير",
-                                    "name_ar_normalized": "حاره الخير",
-                                    "name_en_normalized": "Hart Al Khyr"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 11,
-                            "name_en": "Suds Al Hudud",
-                            "name_ar": "سدس الحدود",
-                            "name_ar_normalized": "سدس الحدود",
-                            "name_en_normalized": "Suds Al Hudud",
-                            "villages": [
-                                {
-                                    "id": 26,
-                                    "name_en": "Al-Htarsh",
-                                    "name_ar": "الحتارش",
-                                    "name_ar_normalized": "الحتارش",
-                                    "name_en_normalized": "Al Htarsh"
-                                },
-                                {
-                                    "id": 27,
-                                    "name_en": "Al-Dhrh",
-                                    "name_ar": "العذرة",
-                                    "name_ar_normalized": "العذره",
-                                    "name_en_normalized": "Al Dhrh"
-                                },
-                                {
-                                    "id": 28,
-                                    "name_en": "Al-Rwq",
-                                    "name_ar": "العروق",
-                                    "name_ar_normalized": "العروق",
-                                    "name_en_normalized": "Al Rwq"
-                                },
-                                {
-                                    "id": 29,
-                                    "name_en": "Al-Ghras",
-                                    "name_ar": "الغراس",
-                                    "name_ar_normalized": "الغراس",
-                                    "name_en_normalized": "Al Ghras"
-                                },
-                                {
-                                    "id": 30,
-                                    "name_en": "Al-Ghrzh",
-                                    "name_ar": "الغرزه",
-                                    "name_ar_normalized": "الغرزه",
-                                    "name_en_normalized": "Al Ghrzh"
-                                },
-                                {
-                                    "id": 31,
-                                    "name_en": "Al-Mhjl",
-                                    "name_ar": "المحجل",
-                                    "name_ar_normalized": "المحجل",
-                                    "name_en_normalized": "Al Mhjl"
-                                },
-                                {
-                                    "id": 32,
-                                    "name_en": "Bna Zyad",
-                                    "name_ar": "بنى زياد",
-                                    "name_ar_normalized": "بنا زياد",
-                                    "name_en_normalized": "Bna Zyad"
-                                },
-                                {
-                                    "id": 33,
-                                    "name_en": "Bny Aasm",
-                                    "name_ar": "بني عاصم",
-                                    "name_ar_normalized": "بني عاصم",
-                                    "name_en_normalized": "Bny Aasm"
-                                },
-                                {
-                                    "id": 34,
-                                    "name_en": "Byt Al-Akw'",
-                                    "name_ar": "بيت الاكوع",
-                                    "name_ar_normalized": "بيت الاكوع",
-                                    "name_en_normalized": "Byt Al Akw"
-                                },
-                                {
-                                    "id": 35,
-                                    "name_en": "Byt Al-Jlal",
-                                    "name_ar": "بيت الجلال",
-                                    "name_ar_normalized": "بيت الجلال",
-                                    "name_en_normalized": "Byt Al Jlal"
-                                },
-                                {
-                                    "id": 36,
-                                    "name_en": "Byt Al-Hdmh",
-                                    "name_ar": "بيت الحدمه",
-                                    "name_ar_normalized": "بيت الحدمه",
-                                    "name_en_normalized": "Byt Al Hdmh"
-                                },
-                                {
-                                    "id": 37,
-                                    "name_en": "Byt As-Sba'a",
-                                    "name_ar": "بيت السباعى",
-                                    "name_ar_normalized": "بيت السباعا",
-                                    "name_en_normalized": "Byt As Sbaa"
-                                },
-                                {
-                                    "id": 38,
-                                    "name_en": "Byt Bydr",
-                                    "name_ar": "بيت بيدر",
-                                    "name_ar_normalized": "بيت بيدر",
-                                    "name_en_normalized": "Byt Bydr"
-                                },
-                                {
-                                    "id": 39,
-                                    "name_en": "Byt Khyran",
-                                    "name_ar": "بيت خيران",
-                                    "name_ar_normalized": "بيت خيران",
-                                    "name_en_normalized": "Byt Khyran"
-                                },
-                                {
-                                    "id": 40,
-                                    "name_en": "Byt Dghysh",
-                                    "name_ar": "بيت دغيش",
-                                    "name_ar_normalized": "بيت دغيش",
-                                    "name_en_normalized": "Byt Dghysh"
-                                },
-                                {
-                                    "id": 41,
-                                    "name_en": "Byt Athrb",
-                                    "name_ar": "بيت عثرب",
-                                    "name_ar_normalized": "بيت عثرب",
-                                    "name_en_normalized": "Byt Athrb"
-                                },
-                                {
-                                    "id": 42,
-                                    "name_en": "Byt Hady",
-                                    "name_ar": "بيت هادي",
-                                    "name_ar_normalized": "بيت هادي",
-                                    "name_en_normalized": "Byt Hady"
-                                },
-                                {
-                                    "id": 43,
-                                    "name_en": "Byt Hdyan",
-                                    "name_ar": "بيت هديان",
-                                    "name_ar_normalized": "بيت هديان",
-                                    "name_en_normalized": "Byt Hdyan"
-                                },
-                                {
-                                    "id": 44,
-                                    "name_en": "Byrzahr",
-                                    "name_ar": "بيرزاهر",
-                                    "name_ar_normalized": "بيرزاهر",
-                                    "name_en_normalized": "Byrzahr"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 12,
-                            "name_en": "Al Hama'a",
-                            "name_ar": "الحماء",
-                            "name_ar_normalized": "الحماء",
-                            "name_en_normalized": "Al Hamaa",
-                            "villages": [
-                                {
-                                    "id": 45,
-                                    "name_en": "Al-Hma'a",
-                                    "name_ar": "الحماء",
-                                    "name_ar_normalized": "الحماء",
-                                    "name_en_normalized": "Al Hmaa"
-                                },
-                                {
-                                    "id": 46,
-                                    "name_en": "Al-Khmys",
-                                    "name_ar": "الخميس",
-                                    "name_ar_normalized": "الخميس",
-                                    "name_en_normalized": "Al Khmys"
-                                },
-                                {
-                                    "id": 47,
-                                    "name_en": "Al-Qr",
-                                    "name_ar": "العقر",
-                                    "name_ar_normalized": "العقر",
-                                    "name_en_normalized": "Al Qr"
-                                },
-                                {
-                                    "id": 48,
-                                    "name_en": "Al-Lyfh",
-                                    "name_ar": "العليفه",
-                                    "name_ar_normalized": "العليفه",
-                                    "name_en_normalized": "Al Lyfh"
-                                },
-                                {
-                                    "id": 49,
-                                    "name_en": "Byt Al-Htyry",
-                                    "name_ar": "بيت الحطيري",
-                                    "name_ar_normalized": "بيت الحطيري",
-                                    "name_en_normalized": "Byt Al Htyry"
-                                },
-                                {
-                                    "id": 50,
-                                    "name_en": "Byt Al-Hlly",
-                                    "name_ar": "بيت الحللي",
-                                    "name_ar_normalized": "بيت الحللي",
-                                    "name_en_normalized": "Byt Al Hlly"
-                                },
-                                {
-                                    "id": 51,
-                                    "name_en": "Byt Al-Khawy",
-                                    "name_ar": "بيت الخاوي",
-                                    "name_ar_normalized": "بيت الخاوي",
-                                    "name_en_normalized": "Byt Al Khawy"
-                                },
-                                {
-                                    "id": 52,
-                                    "name_en": "Byt Al-Njry",
-                                    "name_ar": "بيت العنجري",
-                                    "name_ar_normalized": "بيت العنجري",
-                                    "name_en_normalized": "Byt Al Njry"
-                                },
-                                {
-                                    "id": 53,
-                                    "name_en": "Byt Al-Qmasy",
-                                    "name_ar": "بيت القماسي",
-                                    "name_ar_normalized": "بيت القماسي",
-                                    "name_en_normalized": "Byt Al Qmasy"
-                                },
-                                {
-                                    "id": 54,
-                                    "name_en": "Byt Al-Mrshhy",
-                                    "name_ar": "بيت المرشحي",
-                                    "name_ar_normalized": "بيت المرشحي",
-                                    "name_en_normalized": "Byt Al Mrshhy"
-                                },
-                                {
-                                    "id": 55,
-                                    "name_en": "Byt Jhzr",
-                                    "name_ar": "بيت جحزر",
-                                    "name_ar_normalized": "بيت جحزر",
-                                    "name_en_normalized": "Byt Jhzr"
-                                },
-                                {
-                                    "id": 56,
-                                    "name_en": "Byt Hnzl",
-                                    "name_ar": "بيت حنظل",
-                                    "name_ar_normalized": "بيت حنظل",
-                                    "name_en_normalized": "Byt Hnzl"
-                                },
-                                {
-                                    "id": 57,
-                                    "name_en": "Byt Hnkl",
-                                    "name_ar": "بيت حنكل",
-                                    "name_ar_normalized": "بيت حنكل",
-                                    "name_en_normalized": "Byt Hnkl"
-                                },
-                                {
-                                    "id": 58,
-                                    "name_en": "Byt Khmys",
-                                    "name_ar": "بيت خميس",
-                                    "name_ar_normalized": "بيت خميس",
-                                    "name_en_normalized": "Byt Khmys"
-                                },
-                                {
-                                    "id": 59,
-                                    "name_en": "Byt Rsam",
-                                    "name_ar": "بيت رسام",
-                                    "name_ar_normalized": "بيت رسام",
-                                    "name_en_normalized": "Byt Rsam"
-                                },
-                                {
-                                    "id": 60,
-                                    "name_en": "Byt Sylan",
-                                    "name_ar": "بيت سيلان",
-                                    "name_ar_normalized": "بيت سيلان",
-                                    "name_en_normalized": "Byt Sylan"
-                                },
-                                {
-                                    "id": 61,
-                                    "name_en": "Byt Tahr",
-                                    "name_ar": "بيت طاهر",
-                                    "name_ar_normalized": "بيت طاهر",
-                                    "name_en_normalized": "Byt Tahr"
-                                },
-                                {
-                                    "id": 62,
-                                    "name_en": "Byt Ghythan",
-                                    "name_ar": "بيت غيثان",
-                                    "name_ar_normalized": "بيت غيثان",
-                                    "name_en_normalized": "Byt Ghythan"
-                                },
-                                {
-                                    "id": 63,
-                                    "name_en": "Byt Mr'y",
-                                    "name_ar": "بيت مرعي",
-                                    "name_ar_normalized": "بيت مرعي",
-                                    "name_en_normalized": "Byt Mry"
-                                },
-                                {
-                                    "id": 64,
-                                    "name_en": "Byr Ad-Drb",
-                                    "name_ar": "بير الدرب",
-                                    "name_ar_normalized": "بير الدرب",
-                                    "name_en_normalized": "Byr Ad Drb"
-                                },
-                                {
-                                    "id": 65,
-                                    "name_en": "Swq Al-Khmys",
-                                    "name_ar": "سوق الخميس",
-                                    "name_ar_normalized": "سوق الخميس",
-                                    "name_en_normalized": "Swq Al Khmys"
-                                },
-                                {
-                                    "id": 66,
-                                    "name_en": "Ghlabh",
-                                    "name_ar": "غلابة",
-                                    "name_ar_normalized": "غلابه",
-                                    "name_en_normalized": "Ghlabh"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 13,
-                            "name_en": "Bani Jarmuz",
-                            "name_ar": "بني جرموز",
-                            "name_ar_normalized": "بني جرموز",
-                            "name_en_normalized": "Bani Jarmuz",
-                            "villages": [
-                                {
-                                    "id": 67,
-                                    "name_en": "Al-Jyrd",
-                                    "name_ar": "الجيرد",
-                                    "name_ar_normalized": "الجيرد",
-                                    "name_en_normalized": "Al Jyrd"
-                                },
-                                {
-                                    "id": 68,
-                                    "name_en": "Al-Hrh",
-                                    "name_ar": "الحرة",
-                                    "name_ar_normalized": "الحره",
-                                    "name_en_normalized": "Al Hrh"
-                                },
-                                {
-                                    "id": 69,
-                                    "name_en": "Al-Khbshh",
-                                    "name_ar": "الخبشه",
-                                    "name_ar_normalized": "الخبشه",
-                                    "name_en_normalized": "Al Khbshh"
-                                },
-                                {
-                                    "id": 70,
-                                    "name_en": "Al-Ghrby",
-                                    "name_ar": "الغربي",
-                                    "name_ar_normalized": "الغربي",
-                                    "name_en_normalized": "Al Ghrby"
-                                },
-                                {
-                                    "id": 71,
-                                    "name_en": "Al-Ghwlh",
-                                    "name_ar": "الغوله",
-                                    "name_ar_normalized": "الغوله",
-                                    "name_en_normalized": "Al Ghwlh"
-                                },
-                                {
-                                    "id": 72,
-                                    "name_en": "Al-Qsyr",
-                                    "name_ar": "القصير",
-                                    "name_ar_normalized": "القصير",
-                                    "name_en_normalized": "Al Qsyr"
-                                },
-                                {
-                                    "id": 73,
-                                    "name_en": "Al-Hjrh",
-                                    "name_ar": "الهجرة",
-                                    "name_ar_normalized": "الهجره",
-                                    "name_en_normalized": "Al Hjrh"
-                                },
-                                {
-                                    "id": 74,
-                                    "name_en": "Byt Al-Hsam",
-                                    "name_ar": "بيت الحسام",
-                                    "name_ar_normalized": "بيت الحسام",
-                                    "name_en_normalized": "Byt Al Hsam"
-                                },
-                                {
-                                    "id": 75,
-                                    "name_en": "Byt Srh",
-                                    "name_ar": "بيت صرح",
-                                    "name_ar_normalized": "بيت صرح",
-                                    "name_en_normalized": "Byt Srh"
-                                },
-                                {
-                                    "id": 76,
-                                    "name_en": "Dghysh",
-                                    "name_ar": "دغيش",
-                                    "name_ar_normalized": "دغيش",
-                                    "name_en_normalized": "Dghysh"
-                                },
-                                {
-                                    "id": 77,
-                                    "name_en": "D'hrh",
-                                    "name_ar": "دهرة",
-                                    "name_ar_normalized": "دهره",
-                                    "name_en_normalized": "Dhrh"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 11,
-                    "name_en": "Dwahy Al-Amant Snhan Wbny Bhlwl",
-                    "name_ar": "ضواحي الأمانة سنحان وبني بهلول",
-                    "name_ar_tashkeel": "ضَوَاحِي الأمَانَة سَنْحَان وبَنِي بُهْلُول",
-                    "name_ar_normalized": "ضواحي الامانه سنحان وبني بهلول",
-                    "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl",
-                    "uzaal": [
-                        {
-                            "id": 14,
-                            "name_en": "Dwahy Al-Amant Snhan Wbny Bhlwl",
-                            "name_ar": "ضواحي الامانة سنحان وبني بهلول",
-                            "name_ar_normalized": "ضواحي الامانه سنحان وبني بهلول",
-                            "name_en_normalized": "Dwahy Al Amant Snhan Wbny Bhlwl",
-                            "villages": [
-                                {
-                                    "id": 78,
-                                    "name_en": "Al-Amanh",
-                                    "name_ar": "الامانة",
-                                    "name_ar_normalized": "الامانه",
-                                    "name_en_normalized": "Al Amanh"
-                                },
-                                {
-                                    "id": 79,
-                                    "name_en": "Hzyz",
-                                    "name_ar": "حزيز",
-                                    "name_ar_normalized": "حزيز",
-                                    "name_en_normalized": "Hzyz"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 12,
-                    "name_en": "Dwahy Al-Amant Hmdan",
-                    "name_ar": "ضواحي الأمانة همدان",
-                    "name_ar_tashkeel": "ضَوَاحِي الأمَانَة هَمْدَان",
-                    "name_ar_normalized": "ضواحي الامانه همدان",
-                    "name_en_normalized": "Dwahy Al Amant Hmdan"
-                }
-            ]
-        }
-    ]
-}
+    {
+        "emoji": "🇾🇪",
+        "emojiU": "U+1F1FE U+1F1EA",
+        "governorates": [
+            {
+                "id": 1,
+                "name_en": "Amant Al-Asmah",
+                "name_ar": "أمانة العاصمة",
+                "name_ar_tashkeel": "أَمانَة العاصِمَةِ",
+                "phone_numbering_plan": "01",
+                "capital_name_ar": "",
+                "capital_name_en": "",
+                "name_ar_normalized": "امانه العاصمه",
+                "name_en_normalized": "Amant Al Asmah",
+                "districts": [
+                    {
+                        "id": 2,
+                        "name_en": "Azal",
+                        "name_ar": "آزَاْل",
+                        "name_ar_tashkeel": "آزَاْل",
+                        "name_ar_normalized": "ازال",
+                        "name_en_normalized": "Azal",
+                        "uzaal": [
+                            {
+                                "id": 2,
+                                "name_en": "Azaal",
+                                "name_ar": "ازال",
+                                "name_ar_normalized": "ازال",
+                                "name_en_normalized": "Azaal"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name_en": "Al-Safiah",
+                        "name_ar": "الصافية",
+                        "name_ar_tashkeel": "الصَّافِيَة",
+                        "name_ar_normalized": "الصافيه",
+                        "name_en_normalized": "Al Safiah"
+                    },
+                    {
+                        "id": 4,
+                        "name_en": "Al-Sabe'en",
+                        "name_ar": "السبعين",
+                        "name_ar_tashkeel": "السَّبْعِين",
+                        "name_ar_normalized": "السبعين",
+                        "name_en_normalized": "Al Sabeen",
+                        "uzaal": [
+                            {
+                                "id": 4,
+                                "name_en": "As Sab'in",
+                                "name_ar": "السبعين",
+                                "name_ar_normalized": "السبعين",
+                                "name_en_normalized": "As Sabin",
+                                "villages": [
+                                    {
+                                        "id": 8,
+                                        "name_en": "Al-Amanh",
+                                        "name_ar": "الامانة",
+                                        "name_ar_normalized": "الامانه",
+                                        "name_en_normalized": "Al Amanh"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name_en": "As-Swad Ash-Shmaly",
+                                        "name_ar": "السواد الشمالي",
+                                        "name_ar_normalized": "السواد الشمالي",
+                                        "name_en_normalized": "As Swad Ash Shmaly"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name_en": "Hart An-Nsr",
+                                        "name_ar": "حارة النصر",
+                                        "name_ar_normalized": "حاره النصر",
+                                        "name_en_normalized": "Hart An Nsr"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name_en": "Sh'oob",
+                        "name_ar": "شعوب",
+                        "name_ar_tashkeel": "شُعُوْب",
+                        "name_ar_normalized": "شعوب",
+                        "name_en_normalized": "Shoob"
+                    }
+                ]
+            }
+        ]
+    }

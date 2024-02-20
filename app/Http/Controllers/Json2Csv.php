@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use League\Csv\CannotInsertRecord;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+use League\Csv\Writer;
 use Rap2hpoutre\FastExcel\FastExcel;
-
+use SplTempFileObject;
 
 class Json2Csv extends Controller
 {
     public function __invoke(Request $request)
     {
-        $json = Storage::get("public/yemen-info-small.json");
+        // public/yemen-info-small.json is working fine
+        // public/yemen-info.json has some problems
+        $json = Storage::get("public/yemen-info.json");
         $yemenData = json_decode($json, true);
 
         $data = [];
@@ -23,7 +27,7 @@ class Json2Csv extends Controller
         foreach ($yemenData['governorates'] as $gov) {
             $previousValues['governorate'] = $this->fillPreviousValues($gov, $previousValues['governorate'], 'governorate');
 
-            foreach ($gov['districts'] as $i => $district) {
+            foreach ($gov['districts'] as $district) {
                 $previousValues['district'] = $this->fillPreviousValues($district, $previousValues['district'], 'district');
                 $districtData = $this->fillKeys($district, 'district', $previousValues);
 
@@ -56,6 +60,7 @@ class Json2Csv extends Controller
                     $data[] = $villageData;
                 }
             }
+            // $data = array_map("unserialize", array_unique(array_map("serialize", $data)));
         }
 
         $uniqueData = array_map("unserialize", array_unique(array_map("serialize", $data)));
@@ -122,14 +127,5 @@ class Json2Csv extends Controller
             'district' => [],
             'uzlah' => []
         ];
-    }
-
-    private function flattenArray($array)
-    {
-        $flattenedArray = [];
-        foreach ($array as $item) {
-            $flattenedArray = array_merge($flattenedArray, $item);
-        }
-        return $flattenedArray;
     }
 }
